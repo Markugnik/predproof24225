@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <link type="text/css" href="{{ url_for('static', filename='css/style3.css') }}" rel="stylesheet"/>
+        <script src="{{url_for('static', filename='scripts/script.js')}}" defer ></script>
+</head>
+<body>
+
+<div class="container">
+    <h1 id="a1">Вход</h1>
+	<center>
+	{% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class="flashes">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+	</center>
+	<p>
+    <form method="post">
+        <label for="login">Имя пользователя (логин):</label><br>
+        <input type="text" id="login" name="login" required><br><br>
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button class="item1" type="submit">
+            <p id="a2">Войти</p>
+            </button>
+    </form>
+    <a color="00FFFF" href="/">Назад на главную</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+.body {
+    color: rgb(244, 221, 255);
+}
+.container {
+    background-color: rgb(47, 29, 54);
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px 900px auto 900px;
+}
+.container1 {
+    background-color: rgb(136, 111, 146);
+    width: 1400px;
+    height: 800px;
+    border-radius: 20px;
+    margin: 20px 240px auto 240px;
+}
+#b1 {
+    color:aqua;
+    font-size: 20px;
+}
+#zav {
+    width: 240px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(47, 29, 54);
+}
+#mmm {
+    font-size: 25px;
+    color:aqua;
+}

@@ -1,0 +1,40 @@
+body {
+    background: rgb(217, 213, 241);
+}
+#a1 {
+    color:aqua;
+}
+.container {
+    background-color: rgb(177, 148, 189);
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin:30px 600px auto 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(47, 29, 54);
+    margin: auto 70px 10px 70px;
+}
+#login {
+    width: 270px;
+    height: 40px;
+    border-radius: 7px;
+}
+#password {
+    width: 270px;
+    height: 40px;
+    border-radius: 7px;
+}
+#a2 {
+    color:aqua
+}

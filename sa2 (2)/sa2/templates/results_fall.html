@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" href="{{ url_for('static', filename='css/style1.css') }}" rel="stylesheet"/>
+</head>
+<body>
+    <div class="top">
+        <button type="submit" id="zav">
+            <p id="mmm">Создать заявку</p>
+        </button>
+    </div>
+    <div class="container">
+        <p id="b1">ИНВЕНТАРЬ</p>
+    </div>
+    <div class="container1"></div>
+</body>
+</html>
+<script>
+    document.getElementById('zav').addEventListener('click', function() {
+    window.location.href = '/zavki';
+});
+</script>
